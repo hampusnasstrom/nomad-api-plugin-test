@@ -1,0 +1,15 @@
+from nomad.config.models.plugins import APIEntryPoint
+
+
+class MyAPIEntryPoint(APIEntryPoint):
+    def load(self):
+        from nomad_api_plugin_test.apis.myapi import app
+
+        return app
+
+
+myapi = MyAPIEntryPoint(
+    prefix='myapi',
+    name='MyAPI',
+    description='My custom API.',
+)

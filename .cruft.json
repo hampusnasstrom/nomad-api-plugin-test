@@ -1,0 +1,32 @@
+{
+  "template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "commit": "89bf9fe1aa0a9a3fe74fd2af5ccc74d5ea974ced",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Hampus Näsström",
+      "email": "hampus.naesstroem@physik.hu-berlin.de",
+      "github_username": "hampusnasstrom",
+      "plugin_name": "nomad-api-plugin-test",
+      "module_name": "nomad_api_plugin_test",
+      "short_description": "A test plugin using the API entry point",
+      "version": "0.1.0",
+      "license": "MIT",
+      "include_schema_package": false,
+      "include_normalizer": false,
+      "include_parser": false,
+      "include_app": false,
+      "include_example_uploads": false,
+      "include_action": true,
+      "include_north_tools": false,
+      "north_tool_name": "my_north_tool",
+      "_copy_without_render": [
+        "*.html",
+        "*.png"
+      ],
+      "_template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+      "_commit": "89bf9fe1aa0a9a3fe74fd2af5ccc74d5ea974ced"
+    }
+  },
+  "directory": null
+}
